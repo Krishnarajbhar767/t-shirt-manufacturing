@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { ArrowRight, Star, Play, CheckCircle } from "lucide-react"
-
+import Image from 'next/image';
+import HERO from '../../public/images/home/Hero.jpg'
 export default function Hero() {
   return (
     <section className="relative bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white pt-16 overflow-hidden">
@@ -22,7 +23,7 @@ export default function Hero() {
               </div>
               <div className="flex items-center text-sm text-blue-200">
                 <CheckCircle className="h-4 w-4 mr-2" />
-                ISO 9001 Certified
+                Authentic
               </div>
               <div className="flex items-center text-sm text-blue-200">
                 <CheckCircle className="h-4 w-4 mr-2" />
@@ -73,13 +74,8 @@ export default function Hero() {
                 Get Free Quote
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
-              <Link
-                href="/gallery"
-                className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-slate-900 transition-all duration-300 text-center flex items-center justify-center"
-              >
-                <Play className="mr-2 h-5 w-5" />
-                View Our Work
-              </Link>
+
+          
             </div>
 
             {/* Quick Stats */}
@@ -102,10 +98,10 @@ export default function Hero() {
           <div className="relative">
             <div className="relative z-10">
               <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 shadow-2xl">
-                <img
-                  src="/placeholder.svg?height=500&width=600"
+                <Image 
+                  src={HERO}
                   alt="Custom T-shirt Manufacturing Process"
-                  className="w-full h-auto rounded-2xl shadow-lg"
+                  className="w-full h-auto rounded-2xl shadow-lg md:h-[600px] md:w-[500px]"
                 />
               </div>
 

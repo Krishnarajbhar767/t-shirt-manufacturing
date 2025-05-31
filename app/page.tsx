@@ -8,8 +8,7 @@ import IndustryExpertise from "./components/IndustryExpertise"
 import QualityAssurance from "./components/QualityAssurance"
 import Stats from "./components/Stats"
 import TestimonialsPreview from "./components/TestimonialsPreview"
-import RecentProjects from "./components/RecentProjects"
-import NewsPreview from "./components/NewsPreview"
+
 import CTA from "./components/CTA"
 
 export default function Home() {
@@ -25,8 +24,7 @@ export default function Home() {
       <QualityAssurance />
       <Stats />
       <TestimonialsPreview />
-      <RecentProjects />
-      <NewsPreview />
+
       <CTA />
     </>
   )

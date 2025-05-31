@@ -2,8 +2,10 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Menu, X, ChevronDown } from "lucide-react"
+import Image from 'next/image';
 
+import { Menu, X, ChevronDown } from "lucide-react"
+import LOGO from '../../public/images/logo t sirt.png'
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const [isProductsOpen, setIsProductsOpen] = useState(false)
@@ -24,7 +26,8 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
-              <span className="text-2xl font-bold text-blue-600">CustomCraft</span>
+              <Image src={LOGO} alt="Logo" className=" h-16 w-16" />
+
             </Link>
           </div>
 
@@ -54,15 +57,8 @@ export default function Navbar() {
                 </div>
               </div>
             </div>
-            <Link href="/services" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Services
-            </Link>
-            <Link href="/gallery" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Gallery
-            </Link>
-            <Link href="/testimonials" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Testimonials
-            </Link>
+            
+
             <Link href="/contact" className="text-gray-700 hover:text-blue-600 transition-colors">
               Contact
             </Link>
@@ -108,15 +104,7 @@ export default function Navbar() {
                 </div>
               )}
             </div>
-            <Link href="/services" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
-              Services
-            </Link>
-            <Link href="/gallery" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
-              Gallery
-            </Link>
-            <Link href="/testimonials" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
-              Testimonials
-            </Link>
+  
             <Link href="/contact" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
               Contact
             </Link>

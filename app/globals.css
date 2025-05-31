@@ -3,46 +3,46 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    scroll-behavior: smooth;
-  }
+    html {
+        scroll-behavior: smooth;
+    }
 
-  body {
-    @apply text-gray-900;
-  }
+    body {
+        @apply text-gray-900;
+    }
 }
 
 @layer components {
-  .btn-primary {
-    @apply bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors;
-  }
+    .btn-primary {
+        @apply bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors;
+    }
 
-  .btn-secondary {
-    @apply border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-colors;
-  }
+    .btn-secondary {
+        @apply border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-colors;
+    }
 }
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+    background: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2563eb;
-  border-radius: 4px;
+    background: #2563eb;
+    border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #1d4ed8;
+    background: #1d4ed8;
 }
 
 /* Smooth animations */
 * {
-  transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 /* Focus styles for accessibility */
@@ -50,6 +50,6 @@ button:focus,
 input:focus,
 textarea:focus,
 select:focus {
-  outline: 2px solid #2563eb;
-  outline-offset: 2px;
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
 }

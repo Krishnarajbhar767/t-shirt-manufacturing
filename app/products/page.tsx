@@ -1,8 +1,15 @@
 import type { Metadata } from "next"
 import { Shirt, Crown, ChefHat, ShoppingBag, Mouse, Coffee } from "lucide-react"
-
+import TShirt from '../../public/images/product/custom shirt.webp'
+import CustomJuteBag from '../../public/images/product/customg jute bag.webp'
+import CustomMug from '../../public/images/product/custom mugs.webp'
+import MousePad from '../../public/images/product/custom mousepad.webp'
+import CottonBag from '../../public/images/product/custom cotton bags.webp'
+import Cap from '../../public/images/product/custom cap.webp'
+import Arpon from '../../public/images/product/custom arpon.webp'
+import Image from "next/image"
 export const metadata: Metadata = {
-  title: "Products | CustomCraft Manufacturing",
+  title: "Products | T-Shirt Manufacturing",
   description:
     "Explore our range of custom manufacturing services including t-shirts, caps, aprons, bags, mouse pads, and mugs. Premium quality guaranteed.",
 }
@@ -23,7 +30,7 @@ export default function Products() {
         "Fast Turnaround Times",
       ],
       applications: ["Corporate Uniforms", "Event Merchandise", "Team Apparel", "Promotional Giveaways"],
-      image: "/placeholder.svg?height=400&width=500",
+      image: TShirt,
     },
     {
       id: "caps",
@@ -39,7 +46,7 @@ export default function Products() {
         "Structured and Unstructured",
       ],
       applications: ["Corporate Branding", "Sports Teams", "Promotional Events", "Retail Merchandise"],
-      image: "/placeholder.svg?height=400&width=500",
+      image: Cap,
     },
     {
       id: "aprons",
@@ -55,7 +62,7 @@ export default function Products() {
         "Easy Care Instructions",
       ],
       applications: ["Restaurant Uniforms", "Cafe Branding", "Cooking Events", "Promotional Items"],
-      image: "/placeholder.svg?height=400&width=500",
+      image: Arpon,
     },
     {
       id: "jute-bags",
@@ -71,7 +78,7 @@ export default function Products() {
         "Bulk Pricing Options",
       ],
       applications: ["Eco-Friendly Branding", "Trade Shows", "Retail Packaging", "Corporate Gifts"],
-      image: "/placeholder.svg?height=400&width=500",
+      image: CustomJuteBag,
     },
     {
       id: "cotton-bags",
@@ -87,7 +94,7 @@ export default function Products() {
         "Gusset Bottom Options",
       ],
       applications: ["Shopping Bags", "Conference Swag", "Brand Promotion", "Gift Packaging"],
-      image: "/placeholder.svg?height=400&width=500",
+      image: CottonBag,
     },
     {
       id: "mouse-pads",
@@ -103,7 +110,7 @@ export default function Products() {
         "Fade-Resistant Inks",
       ],
       applications: ["Office Supplies", "Trade Show Giveaways", "Corporate Gifts", "Gaming Accessories"],
-      image: "/placeholder.svg?height=400&width=500",
+      image: MousePad,
     },
     {
       id: "mugs",
@@ -119,7 +126,7 @@ export default function Products() {
         "Gift Box Packaging",
       ],
       applications: ["Corporate Gifts", "Employee Recognition", "Promotional Items", "Event Merchandise"],
-      image: "/placeholder.svg?height=400&width=500",
+      image: CustomMug,
     },
   ]
 
@@ -182,7 +189,7 @@ export default function Products() {
                   </div>
 
                   <div className={`${index % 2 === 1 ? "lg:col-start-1" : ""}`}>
-                    <img
+                    <Image
                       src={product.image || "/placeholder.svg"}
                       alt={product.title}
                       className="w-full h-full object-cover"

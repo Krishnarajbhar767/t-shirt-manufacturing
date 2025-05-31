@@ -13,7 +13,7 @@ export default function NewsPreview() {
       image: "/placeholder.svg?height=200&width=300",
     },
     {
-      title: "CustomCraft Expands Production Capacity",
+      title: "T-Shirt Expands Production Capacity",
       excerpt:
         "Our new 50,000 sq ft facility is now operational, allowing us to handle larger orders and faster turnaround times.",
       date: "December 10, 2024",
@@ -37,9 +37,9 @@ export default function NewsPreview() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <span className="text-blue-600 font-semibold text-lg">Latest News & Insights</span>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-6">Stay Updated with CustomCraft</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-6">Stay Updated with T-Shirt</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Get the latest updates on new products, industry insights, and company news from the CustomCraft team.
+            Get the latest updates on new products, industry insights, and company news from the T-Shirt team.
           </p>
         </div>
 

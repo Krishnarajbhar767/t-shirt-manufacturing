@@ -1,10 +1,11 @@
 import type { Metadata } from "next"
 import { Award, Users, Globe, Zap } from "lucide-react"
-
+import IMAGE from '../../public/images/Office Meeting Room 3D Wall Logo Mockup.png'
+import Image from "next/image"
 export const metadata: Metadata = {
-  title: "About Us | CustomCraft Manufacturing",
+  title: "About Us | T-Shirt Manufacturing",
   description:
-    "Learn about CustomCraft Manufacturing - your trusted partner for premium custom apparel and promotional items with over 10 years of experience.",
+    "Learn about T-Shirt Manufacturing - your trusted partner for premium custom apparel and promotional items with over 10 years of experience.",
 }
 
 export default function About() {
@@ -39,7 +40,7 @@ export default function About() {
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">About CustomCraft</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">About T-Shirt Manufacturing</h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
               Crafting excellence in custom apparel manufacturing since 2014. Your vision, our expertise, exceptional
               results.
@@ -55,7 +56,7 @@ export default function About() {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2014, CustomCraft Manufacturing began as a small family business with a simple mission: to
+                T-Shirt Manufacturing began as a small family business with a simple mission: to
                 provide high-quality custom apparel that helps businesses and organizations express their unique
                 identity.
               </p>
@@ -70,9 +71,9 @@ export default function About() {
               </p>
             </div>
             <div>
-              <img
-                src="/placeholder.svg?height=500&width=600"
-                alt="CustomCraft Manufacturing Facility"
+              <Image
+                src={IMAGE}
+                alt="T-Shirt Manufacturing Facility"
                 className="w-full h-auto rounded-lg shadow-lg"
               />
             </div>
@@ -98,36 +99,6 @@ export default function About() {
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">{value.title}</h3>
                 <p className="text-gray-600">{value.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Team Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Meet Our Team</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our experienced team of professionals is dedicated to bringing your vision to life.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              { name: "Sarah Johnson", role: "CEO & Founder", image: "/placeholder.svg?height=300&width=300" },
-              { name: "Mike Chen", role: "Production Manager", image: "/placeholder.svg?height=300&width=300" },
-              { name: "Emily Rodriguez", role: "Design Director", image: "/placeholder.svg?height=300&width=300" },
-            ].map((member, index) => (
-              <div key={index} className="text-center">
-                <img
-                  src={member.image || "/placeholder.svg"}
-                  alt={member.name}
-                  className="w-48 h-48 rounded-full mx-auto mb-6 object-cover"
-                />
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">{member.name}</h3>
-                <p className="text-blue-600 font-medium">{member.role}</p>
               </div>
             ))}
           </div>

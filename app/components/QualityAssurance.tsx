@@ -1,10 +1,11 @@
 import { Shield, Award, CheckCircle, Target, Microscope, Clock } from "lucide-react"
-
+import Image from "next/image"
+import SideImage from '../../public/images/home/tshirtmanufacturingahmedabad(8).jpg'
 export default function QualityAssurance() {
   const qualityFeatures = [
     {
       icon: Shield,
-      title: "ISO 9001 Certified",
+      title: "Authentic",
       description: "International quality management standards compliance",
     },
     {
@@ -63,10 +64,10 @@ export default function QualityAssurance() {
 
           <div className="relative">
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-3xl p-8">
-              <img
-                src="/placeholder.svg?height=400&width=500"
+              <Image
+                src={SideImage}
                 alt="Quality Control Process"
-                className="w-full h-auto rounded-2xl shadow-lg"
+                className="w-full h-auto rounded-2xl shadow-lg object-cover"
               />
             </div>
 

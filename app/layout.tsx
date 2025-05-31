@@ -8,18 +8,18 @@ import Footer from "./components/Footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "CustomCraft Manufacturing | Premium T-Shirts, Caps & Custom Apparel",
+  title: "T-Shirt Manufacturing | Premium T-Shirts, Caps & Custom Apparel",
   description:
     "Leading manufacturer of custom t-shirts, caps, aprons, bags, and promotional items. High-quality printing and embroidery services for businesses worldwide.",
   keywords:
     "custom t-shirts, caps manufacturing, promotional items, bulk apparel, custom printing, embroidery services",
-  authors: [{ name: "CustomCraft Manufacturing" }],
+  authors: [{ name: "T-Shirt Manufacturing" }],
   openGraph: {
-    title: "CustomCraft Manufacturing | Premium Custom Apparel",
+    title: "T-Shirt Manufacturing | Premium Custom Apparel",
     description: "Leading manufacturer of custom t-shirts, caps, and promotional items",
     type: "website",
   },
-    generator: 'v0.dev'
+    
 }
 
 export default function RootLayout({

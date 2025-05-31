@@ -1,5 +1,10 @@
 import Link from "next/link"
 import { ArrowRight, Award } from "lucide-react"
+import IMAGE1 from '../../public/images/home/tshirtmanufacturingahmedabad(9).jpg'
+import IMAGE2 from '../../public/images/home/tshirtmanufacturingahmedabad(10).jpg'
+import IMAGE3 from '../../public/images/home/tshirtmanufacturingahmedabad(12).jpg'
+import IMAGE4 from '../../public/images/home/tshirtmanufacturingahmedabad(13).jpg'
+import Image from "next/image"
 
 export default function AboutPreview() {
   return (
@@ -8,25 +13,20 @@ export default function AboutPreview() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <div className="mb-6">
-              <span className="text-blue-600 font-semibold text-lg">About CustomCraft</span>
+              <span className="text-blue-600 font-semibold text-lg">About T-Shirt Manufacturing</span>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-6">Crafting Excellence Since 2014</h2>
               <p className="text-xl text-gray-600 leading-relaxed">
-                We're not just manufacturers – we're your creative partners in bringing brands to life through premium
-                custom apparel and promotional items.
+                At TShirtFactory, we’re more than just manufacturers – we’re your creative collaborators in bringing your brand vision to life through premium custom apparel and promotional merchandise.
               </p>
             </div>
 
             <div className="space-y-6 mb-8">
               <p className="text-lg text-gray-600">
-                Founded with a vision to revolutionize custom manufacturing, CustomCraft has grown from a small family
-                business to a trusted partner for over 1,000 businesses worldwide. Our state-of-the-art facility
-                combines traditional craftsmanship with cutting-edge technology.
+                As a leading custom T-shirt manufacturer in Ahmedabad, we started as a small family-run unit and have now grown into a globally trusted brand, serving over 1,000 businesses worldwide. Our state-of-the-art facility merges traditional craftsmanship with the latest technology to ensure top-tier quality.
               </p>
 
               <p className="text-lg text-gray-600">
-                Every product we create tells a story – your story. Whether it's corporate uniforms that build team
-                identity, promotional items that spread brand awareness, or custom apparel that makes a statement, we
-                ensure every piece meets our exacting standards.
+                Every product we create tells a story – your story. Whether it’s corporate uniforms that build strong team identity, promotional merchandise that enhances brand visibility, or customized apparel that makes a lasting impression – we deliver excellence with every stitch. No wonder we’re a preferred corporate uniform supplier in Ahmedabad and across India.
               </p>
             </div>
 
@@ -53,27 +53,27 @@ export default function AboutPreview() {
           <div className="relative">
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
-                <img
-                  src="/placeholder.svg?height=250&width=300"
+                <Image
+                  src={IMAGE1}
                   alt="Manufacturing Process"
-                  className="w-full h-auto rounded-lg shadow-lg"
+                  className="w-full h-auto rounded-lg shadow-lg md:h-[250px] object-cover"
                 />
-                <img
-                  src="/placeholder.svg?height=200&width=300"
+                <Image
+                  src={IMAGE2}
                   alt="Quality Control"
-                  className="w-full h-auto rounded-lg shadow-lg"
+                  className="w-full h-auto rounded-lg shadow-lg md:h-[250px] object-cover"
                 />
               </div>
               <div className="space-y-4 mt-8">
-                <img
-                  src="/placeholder.svg?height=200&width=300"
+                <Image
+                  src={IMAGE3}
                   alt="Team at Work"
-                  className="w-full h-auto rounded-lg shadow-lg"
+                  className="w-full h-auto rounded-lg shadow-lg md:h-[250px] object-cover"
                 />
-                <img
-                  src="/placeholder.svg?height=250&width=300"
+                <Image
+                  src={IMAGE4}
                   alt="Finished Products"
-                  className="w-full h-auto rounded-lg shadow-lg"
+                  className="w-full h-auto rounded-lg shadow-lg md:h-[250px] object-cover"
                 />
               </div>
             </div>

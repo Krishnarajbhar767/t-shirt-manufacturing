@@ -13,8 +13,8 @@ export default function CTA() {
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">Ready to Transform Your Brand?</h2>
           <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
-            Join over 1,000 satisfied clients who trust CustomCraft for their custom manufacturing needs. Let's create
-            something amazing together.
+            Join over 1,000 satisfied clients who trust <strong>TshirtFactory</strong> for their premium custom apparel and promotional merchandise.
+            Let’s bring your vision to life.
           </p>
         </div>
 
@@ -48,11 +48,11 @@ export default function CTA() {
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <div className="text-center">
-                <div className="text-3xl font-bold text-yellow-400 mb-2">24-48h</div>
+                <div className="text-3xl font-bold text-yellow-400 mb-2">24–48h</div>
                 <div className="text-blue-200 text-sm">Quote Response</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-yellow-400 mb-2">7-14</div>
+                <div className="text-3xl font-bold text-yellow-400 mb-2">7–14</div>
                 <div className="text-blue-200 text-sm">Days Production</div>
               </div>
               <div className="text-center">
@@ -74,14 +74,14 @@ export default function CTA() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <a
-                  href="tel:+1-555-123-4567"
+                  href="tel:+919898421198"
                   className="border-2 border-white text-white px-6 py-3 rounded-xl font-semibold hover:bg-white hover:text-slate-900 transition-all duration-300 flex items-center justify-center"
                 >
                   <Phone className="mr-2 h-5 w-5" />
                   Call Now
                 </a>
                 <a
-                  href="mailto:info@customcraft.com"
+                  href="mailto:info@tshirtfactory.co.in"
                   className="border-2 border-white text-white px-6 py-3 rounded-xl font-semibold hover:bg-white hover:text-slate-900 transition-all duration-300 flex items-center justify-center"
                 >
                   <Mail className="mr-2 h-5 w-5" />
@@ -96,8 +96,7 @@ export default function CTA() {
                 <h4 className="text-lg font-semibold">Need Help Choosing?</h4>
               </div>
               <p className="text-blue-100 text-sm mb-4">
-                Not sure which products or services are right for you? Our experts are here to help guide you through
-                the process.
+                Not sure which products or services are right for you? Our experts are here to guide you every step of the way.
               </p>
               <Link
                 href="/services"
@@ -112,7 +111,10 @@ export default function CTA() {
         {/* Bottom Section */}
         <div className="mt-16 text-center">
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
-            <h3 className="text-2xl font-bold mb-4">Why Choose CustomCraft?</h3>
+            <h3 className="text-2xl font-bold mb-4">Why Choose TshirtFactory?</h3>
+            <p className="text-blue-100 max-w-4xl mx-auto mb-8">
+              At TshirtFactory, we’re more than just manufacturers – we’re your creative collaborators in bringing your brand vision to life through premium custom apparel and promotional merchandise.
+            </p>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
               <div className="text-center">
                 <div className="text-4xl font-bold text-yellow-400 mb-2">10+</div>
@@ -132,6 +134,9 @@ export default function CTA() {
               </div>
             </div>
           </div>
+          <p className="text-blue-200 text-sm mt-6">
+            Sarvoday Commercial Centre, Near GPO, Salapose Road, Ahmedabad – 380001, Gujarat, India
+          </p>
         </div>
       </div>
     </section>
