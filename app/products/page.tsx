@@ -216,12 +216,7 @@ export default function Products() {
             >
               Get Free Quote
             </a>
-            <a
-              href="/gallery"
-              className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
-            >
-              View Gallery
-            </a>
+
           </div>
         </div>
       </section>

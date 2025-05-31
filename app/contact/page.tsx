@@ -1,6 +1,6 @@
 "use client"
 
-import { MapPin, Phone, Mail, Clock, Send } from "lucide-react"
+import { Phone, Mail, Clock, Send } from "lucide-react"
 
 export default function Contact() {
   return (
@@ -32,69 +32,29 @@ export default function Contact() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                      Full Name *
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600"
-                      placeholder="Your full name"
-                    />
+                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">Full Name *</label>
+                    <input type="text" id="name" name="name" required className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600" placeholder="Your full name" />
                   </div>
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                      Email Address *
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600"
-                      placeholder="your@email.com"
-                    />
+                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">Email Address *</label>
+                    <input type="email" id="email" name="email" required className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600" placeholder="your@email.com" />
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">
-                      Company Name
-                    </label>
-                    <input
-                      type="text"
-                      id="company"
-                      name="company"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600"
-                      placeholder="Your company"
-                    />
+                    <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">Company Name</label>
+                    <input type="text" id="company" name="company" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600" placeholder="Your company" />
                   </div>
                   <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                      Phone Number
-                    </label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      name="phone"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600"
-                      placeholder="+1 (555) 123-4567"
-                    />
+                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600" placeholder="+91 98984 21198" />
                   </div>
                 </div>
 
                 <div>
-                  <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-2">
-                    Service Interested In
-                  </label>
-                  <select
-                    id="service"
-                    name="service"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600"
-                  >
+                  <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-2">Service Interested In</label>
+                  <select id="service" name="service" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600">
                     <option value="">Select a service</option>
                     <option value="tshirts">Custom T-Shirts</option>
                     <option value="caps">Caps & Hats</option>
@@ -108,33 +68,19 @@ export default function Contact() {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                    Project Details *
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    required
-                    rows={6}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600"
-                    placeholder="Tell us about your project, quantity needed, timeline, and any specific requirements..."
-                  />
+                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">Project Details *</label>
+                  <textarea id="message" name="message" required rows={6} className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600" placeholder="Tell us about your project, quantity needed, timeline, and any specific requirements..." />
                 </div>
 
-                <button
-                  type="submit"
-                  className="w-full bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center"
-                >
-                  Send Message
-                  <Send className="ml-2 h-5 w-5" />
+                <button type="submit" className="w-full bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center">
+                  Send Message <Send className="ml-2 h-5 w-5" />
                 </button>
               </form>
             </div>
 
-            {/* Contact Info */}
+            {/* Contact Info & Company Description */}
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-8">Get in Touch</h2>
-
               <div className="space-y-8">
                 <div className="flex items-start">
                   <div className="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
@@ -142,7 +88,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Phone</h3>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-gray-600">+91 98984 21198<br />+91 98242 71144</p>
                   </div>
                 </div>
 
@@ -169,13 +115,23 @@ export default function Contact() {
                     </p>
                   </div>
                 </div>
+
+                <div>
+                  <p className="text-gray-700 mt-6">
+                    At <strong>TShirtFactory</strong>, we’re more than just manufacturers – we’re your creative collaborators in bringing your brand vision to life through premium custom apparel and promotional merchandise.
+                    <br /><br />
+                    As a leading custom T-shirt manufacturer in Ahmedabad, we started as a small family-run unit and have now grown into a globally trusted brand, serving over 1,000 businesses worldwide. Our state-of-the-art facility merges traditional craftsmanship with the latest technology to ensure top-tier quality.
+                    <br /><br />
+                    Every product we create tells a story – your story. Whether it’s corporate uniforms, promotional merchandise, or customized apparel – we deliver excellence with every stitch.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* FAQ */}
+      {/* FAQ Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">

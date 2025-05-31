@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import { Award, Users, Globe, Zap } from "lucide-react"
-import IMAGE from '../../public/images/Office Meeting Room 3D Wall Logo Mockup.png'
+import IMAGE from '../../public/images/Office Meeting Room 3D Wall Logo Mockup.webp'
 import Image from "next/image"
 export const metadata: Metadata = {
   title: "About Us | T-Shirt Manufacturing",

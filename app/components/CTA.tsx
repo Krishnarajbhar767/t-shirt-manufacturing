@@ -99,7 +99,7 @@ export default function CTA() {
                 Not sure which products or services are right for you? Our experts are here to guide you every step of the way.
               </p>
               <Link
-                href="/services"
+                href="/products"
                 className="text-yellow-400 font-semibold hover:text-yellow-300 transition-colors text-sm"
               >
                 Explore Our Services →
@@ -134,9 +134,7 @@ export default function CTA() {
               </div>
             </div>
           </div>
-          <p className="text-blue-200 text-sm mt-6">
-            Sarvoday Commercial Centre, Near GPO, Salapose Road, Ahmedabad – 380001, Gujarat, India
-          </p>
+          
         </div>
       </div>
     </section>

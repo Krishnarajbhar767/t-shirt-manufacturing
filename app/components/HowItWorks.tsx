@@ -101,12 +101,7 @@ export default function HowItWorks() {
               >
                 Start Your Project
               </a>
-              <a
-                href="tel:+1-555-123-4567"
-                className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-colors"
-              >
-                Call Now
-              </a>
+         
             </div>
           </div>
         </div>

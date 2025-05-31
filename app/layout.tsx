@@ -8,7 +8,7 @@ import Footer from "./components/Footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "T-Shirt Manufacturing | Premium T-Shirts, Caps & Custom Apparel",
+  title: "Best T Shirt Manufacturing In Ahmedabad",
   description:
     "Leading manufacturer of custom t-shirts, caps, aprons, bags, and promotional items. High-quality printing and embroidery services for businesses worldwide.",
     icons:{

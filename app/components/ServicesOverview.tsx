@@ -78,15 +78,7 @@ export default function ServicesOverview() {
           ))}
         </div>
 
-        <div className="text-center">
-          <Link
-            href="/services"
-            className="inline-flex items-center bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl"
-          >
-            View All Services
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Link>
-        </div>
+
       </div>
     </section>
   )

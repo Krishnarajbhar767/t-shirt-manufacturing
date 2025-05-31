@@ -13,7 +13,9 @@ export default function AboutPreview() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <div className="mb-6">
+              <h1>
               <span className="text-blue-600 font-semibold text-lg">About T-Shirt Manufacturing</span>
+              </h1>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-6">Crafting Excellence Since 2014</h2>
               <p className="text-xl text-gray-600 leading-relaxed">
                 At TShirtFactory, we’re more than just manufacturers – we’re your creative collaborators in bringing your brand vision to life through premium custom apparel and promotional merchandise.
