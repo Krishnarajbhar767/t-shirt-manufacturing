@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "T-Shirt Manufacturing | Premium T-Shirts, Caps & Custom Apparel",
   description:
     "Leading manufacturer of custom t-shirts, caps, aprons, bags, and promotional items. High-quality printing and embroidery services for businesses worldwide.",
+    icons:{
+      icon:'/images/logo t sirt.png',
+    },
   keywords:
     "custom t-shirts, caps manufacturing, promotional items, bulk apparel, custom printing, embroidery services",
   authors: [{ name: "T-Shirt Manufacturing" }],
