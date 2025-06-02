@@ -13,7 +13,7 @@ export default function CTA() {
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">Ready to Transform Your Brand?</h2>
           <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
-            Join over 1,000 satisfied clients who trust <strong>TshirtFactory</strong> for their premium custom apparel and promotional merchandise.
+            Join over 1,000 satisfied clients who trust <strong>TshirtFactory</strong> for their premium custom apparel and promotional merchandise. <br />
             Let’s bring your vision to life.
           </p>
         </div>

@@ -1,10 +1,6 @@
-import Link from "next/link"
-import { ArrowRight, Award } from "lucide-react"
-import IMAGE1 from '../../public/images/home/tshirtmanufacturingahmedabad(9).jpg'
-import IMAGE2 from '../../public/images/home/tshirtmanufacturingahmedabad(10).jpg'
-import IMAGE3 from '../../public/images/home/tshirtmanufacturingahmedabad(12).jpg'
-import IMAGE4 from '../../public/images/home/tshirtmanufacturingahmedabad(13).jpg'
-import Image from "next/image"
+import Link from "next/link";
+import { ArrowRight, Award } from "lucide-react";
+import Image from "next/image";
 
 export default function AboutPreview() {
   return (
@@ -14,7 +10,7 @@ export default function AboutPreview() {
           <div>
             <div className="mb-6">
               <h1>
-              <span className="text-blue-600 font-semibold text-lg">About T-Shirt Manufacturing</span>
+                <span className="text-blue-600 font-semibold text-lg">About T-Shirt Manufacturing</span>
               </h1>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-6">Crafting Excellence Since 2014</h2>
               <p className="text-xl text-gray-600 leading-relaxed">
@@ -26,7 +22,6 @@ export default function AboutPreview() {
               <p className="text-lg text-gray-600">
                 As a leading custom T-shirt manufacturer in Ahmedabad, we started as a small family-run unit and have now grown into a globally trusted brand, serving over 1,000 businesses worldwide. Our state-of-the-art facility merges traditional craftsmanship with the latest technology to ensure top-tier quality.
               </p>
-
               <p className="text-lg text-gray-600">
                 Every product we create tells a story – your story. Whether it’s corporate uniforms that build strong team identity, promotional merchandise that enhances brand visibility, or customized apparel that makes a lasting impression – we deliver excellence with every stitch. No wonder we’re a preferred corporate uniform supplier in Ahmedabad and across India.
               </p>
@@ -56,31 +51,38 @@ export default function AboutPreview() {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <Image
-                  src={IMAGE1}
+                  src="/images/home/tshirtmanufacturingahmedabad(9).jpg"
                   alt="Manufacturing Process"
+                  width={500}
+                  height={250}
                   className="w-full h-auto rounded-lg shadow-lg md:h-[250px] object-cover"
                 />
                 <Image
-                  src={IMAGE2}
+                  src="/images/home/tshirtmanufacturingahmedabad(10).webp"
                   alt="Quality Control"
+                  width={500}
+                  height={250}
                   className="w-full h-auto rounded-lg shadow-lg md:h-[250px] object-cover"
                 />
               </div>
               <div className="space-y-4 mt-8">
                 <Image
-                  src={IMAGE3}
+                  src="/images/home/tshirtmanufacturingahmedabad(12).jpg"
                   alt="Team at Work"
+                  width={500}
+                  height={250}
                   className="w-full h-auto rounded-lg shadow-lg md:h-[250px] object-cover"
                 />
                 <Image
-                  src={IMAGE4}
+                  src="/images/home/tshirtmanufacturingahmedabad(13).webp"
                   alt="Finished Products"
+                  width={500}
+                  height={250}
                   className="w-full h-auto rounded-lg shadow-lg md:h-[250px] object-cover"
                 />
               </div>
             </div>
 
-            {/* Floating Achievement Badge */}
             <div className="absolute -top-4 -right-4 bg-yellow-400 text-gray-900 p-4 rounded-full shadow-lg">
               <Award className="h-8 w-8" />
             </div>

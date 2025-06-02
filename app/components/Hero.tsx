@@ -101,7 +101,7 @@ export default function Hero() {
                 <Image 
                   src={HERO}
                   alt="Custom T-shirt Manufacturing Process"
-                  className="w-full h-auto rounded-2xl shadow-lg md:h-[600px] md:w-[500px]"
+                  className="w-full h-auto object-cover rounded-2xl shadow-lg md:h-[600px] md:w-[500px]"
                 />
               </div>
 

@@ -8,7 +8,7 @@ import Footer from "./components/Footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Best T Shirt Manufacturing In Ahmedabad",
+  title: "Tshirtfactory Is Best T Shirt Manufacturing In Ahmedabad",
   description:
     "Leading manufacturer of custom t-shirts, caps, aprons, bags, and promotional items. High-quality printing and embroidery services for businesses worldwide.",
     icons:{
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "custom t-shirts, caps manufacturing, promotional items, bulk apparel, custom printing, embroidery services",
   authors: [{ name: "T-Shirt Manufacturing" }],
   openGraph: {
-    title: "T-Shirt Manufacturing | Premium Custom Apparel",
+    title: "T-Shirt Manufacturing | Tshirtfactory Is Best T Shirt Manufacturing In Ahmedabad",
     description: "Leading manufacturer of custom t-shirts, caps, and promotional items",
     type: "website",
   },

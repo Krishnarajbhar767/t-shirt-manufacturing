@@ -5,7 +5,7 @@ import CustomJuteBag from '../../public/images/product/customg jute bag.webp'
 import CustomMug from '../../public/images/product/custom mugs.webp'
 import MousePad from '../../public/images/product/custom mousepad.webp'
 import CottonBag from '../../public/images/product/custom cotton bags.webp'
-import Cap from '../../public/images/product/custom cap.webp'
+import Cap from '../../public/images/product/custom cap.jpg'
 import Arpon from '../../public/images/product/custom arpon.webp'
 import Image from "next/image"
 export const metadata: Metadata = {
