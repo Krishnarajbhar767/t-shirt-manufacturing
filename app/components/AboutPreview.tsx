@@ -7,12 +7,15 @@ export default function AboutPreview() {
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          {/* Text Content */}
           <div>
             <div className="mb-6">
               <h1>
                 <span className="text-blue-600 font-semibold text-lg">About T-Shirt Manufacturing</span>
               </h1>
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-6">Crafting Excellence Since 2014</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-6">
+                Crafting Excellence Since 2014
+              </h2>
               <p className="text-xl text-gray-600 leading-relaxed">
                 At TShirtFactory, we’re more than just manufacturers – we’re your creative collaborators in bringing your brand vision to life through premium custom apparel and promotional merchandise.
               </p>
@@ -47,42 +50,49 @@ export default function AboutPreview() {
             </Link>
           </div>
 
+          {/* Responsive Image Cards */}
           <div className="relative">
-            <div className="grid grid-cols-2 gap-4">
-              <div className="space-y-4">
-                <Image
-                  src="/images/home/tshirtmanufacturingahmedabad(9).jpg"
-                  alt="Manufacturing Process"
-                  width={500}
-                  height={250}
-                  className="w-full h-auto rounded-lg shadow-lg md:h-[250px] object-cover"
-                />
-                <Image
-                  src="/images/home/tshirtmanufacturingahmedabad(10).webp"
-                  alt="Quality Control"
-                  width={500}
-                  height={250}
-                  className="w-full h-auto rounded-lg shadow-lg md:h-[250px] object-cover"
-                />
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="flex flex-col gap-4">
+                <div className="relative w-full aspect-video">
+                  <Image
+                    src="/images/home/tshirtmanufacturingahmedabad(9).jpg"
+                    alt="Manufacturing Process"
+                    fill
+                    className="rounded-lg shadow-lg object-cover"
+                  />
+                </div>
+                <div className="relative w-full aspect-video">
+                  <Image
+                    src="/images/home/tshirtmanufacturingahmedabad(10).webp"
+                    alt="Quality Control"
+                    fill
+                    className="rounded-lg shadow-lg object-cover"
+                  />
+                </div>
               </div>
-              <div className="space-y-4 mt-8">
-                <Image
-                  src="/images/home/tshirtmanufacturingahmedabad(12).jpg"
-                  alt="Team at Work"
-                  width={500}
-                  height={250}
-                  className="w-full h-auto rounded-lg shadow-lg md:h-[250px] object-cover"
-                />
-                <Image
-                  src="/images/home/tshirtmanufacturingahmedabad(13).webp"
-                  alt="Finished Products"
-                  width={500}
-                  height={250}
-                  className="w-full h-auto rounded-lg shadow-lg md:h-[250px] object-cover"
-                />
+
+              <div className="flex flex-col gap-4 sm:mt-8">
+                <div className="relative w-full aspect-video">
+                  <Image
+                    src="/images/home/tshirtmanufacturingahmedabad(12).jpg"
+                    alt="Team at Work"
+                    fill
+                    className="rounded-lg shadow-lg object-cover"
+                  />
+                </div>
+                <div className="relative w-full aspect-video">
+                  <Image
+                    src="/images/home/tshirtmanufacturingahmedabad(13).webp"
+                    alt="Finished Products"
+                    fill
+                    className="rounded-lg shadow-lg object-cover"
+                  />
+                </div>
               </div>
             </div>
 
+            {/* Floating Badge */}
             <div className="absolute -top-4 -right-4 bg-yellow-400 text-gray-900 p-4 rounded-full shadow-lg">
               <Award className="h-8 w-8" />
             </div>
@@ -90,5 +100,5 @@ export default function AboutPreview() {
         </div>
       </div>
     </section>
-  )
+  );
 }

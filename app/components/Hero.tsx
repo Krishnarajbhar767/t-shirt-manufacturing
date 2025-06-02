@@ -1,7 +1,8 @@
-import Link from "next/link"
-import { ArrowRight, Star, Play, CheckCircle } from "lucide-react"
-import Image from 'next/image';
-import HERO from '../../public/images/home/Hero.jpg'
+import Link from "next/link";
+import { ArrowRight, Star, Play, CheckCircle } from "lucide-react";
+import Image from "next/image";
+import HERO from "../../public/images/home/Hero.jpg";
+
 export default function Hero() {
   return (
     <section className="relative bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white pt-16 overflow-hidden">
@@ -10,6 +11,7 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          {/* Left Side Text */}
           <div className="space-y-8">
             {/* Trust Indicators */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
@@ -32,11 +34,10 @@ export default function Hero() {
             </div>
 
             <div>
-              <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
+              <h1 className="text-4xl md:text-7xl font-bold leading-tight mb-6">
                 Premium
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400">
-                  {" "}
-                  Custom
+                  {" "}Custom
                 </span>
                 <br />
                 Manufacturing
@@ -62,10 +63,11 @@ export default function Hero() {
                     <CheckCircle className="h-5 w-5 text-green-400 mr-3 flex-shrink-0" />
                     {benefit}
                   </div>
-                ),
+                )
               )}
             </div>
 
+            {/* CTA */}
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/contact"
@@ -74,11 +76,9 @@ export default function Hero() {
                 Get Free Quote
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
-
-          
             </div>
 
-            {/* Quick Stats */}
+            {/* Stats */}
             <div className="grid grid-cols-3 gap-6 pt-8 border-t border-blue-800">
               <div className="text-center">
                 <div className="text-2xl font-bold text-yellow-400">10+</div>
@@ -95,13 +95,16 @@ export default function Hero() {
             </div>
           </div>
 
+          {/* Hero Image */}
           <div className="relative">
             <div className="relative z-10">
-              <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 shadow-2xl">
-                <Image 
+              <div className="relative w-full aspect-[4/5] sm:aspect-[3/4] lg:aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl">
+                <Image
                   src={HERO}
                   alt="Custom T-shirt Manufacturing Process"
-                  className="w-full h-auto object-cover rounded-2xl shadow-lg md:h-[600px] md:w-[500px]"
+                  fill
+                  className="object-cover"
+                  priority
                 />
               </div>
 
@@ -130,5 +133,5 @@ export default function Hero() {
         </svg>
       </div>
     </section>
-  )
+  );
 }
