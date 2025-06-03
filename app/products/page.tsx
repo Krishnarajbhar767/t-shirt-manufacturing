@@ -12,7 +12,7 @@ import Image from "next/image";
 import TShirt from "../../public/images/product/custom shirt.jpg";
 import CustomJuteBag from "../../public/images/product/customg jute bag.webp";
 import CustomMug from "../../public/images/product/custom mugs.webp";
-import MousePad from "../../public/images/product/mousepad.jpeg";
+import MousePad from "../../public/images/product/custom mousepad.webp";
 import CottonBag from "../../public/images/product/custom cotton bags.webp";
 import Cap from "../../public/images/product/custom cap.jpg";
 import Arpon from "../../public/images/product/custom arpon.jpg";
