@@ -54,7 +54,7 @@ export default function AboutPreview() {
           <div className="relative">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="flex flex-col gap-4">
-                <div className="relative w-full aspect-video">
+                <div className="relative w-full h-60 md:h-72 lg:h-80">
                   <Image
                     src="/images/home/tshirtmanufacturingahmedabad(9).jpg"
                     alt="Manufacturing Process"
@@ -62,7 +62,7 @@ export default function AboutPreview() {
                     className="rounded-lg shadow-lg object-cover"
                   />
                 </div>
-                <div className="relative w-full aspect-video">
+                <div className="relative w-full h-60 md:h-72 lg:h-80">
                   <Image
                     src="/images/home/tshirtmanufacturingahmedabad(10).webp"
                     alt="Quality Control"
@@ -73,7 +73,7 @@ export default function AboutPreview() {
               </div>
 
               <div className="flex flex-col gap-4 sm:mt-8">
-                <div className="relative w-full aspect-video">
+                <div className="relative w-full h-60 md:h-72 lg:h-80">
                   <Image
                     src="/images/home/tshirtmanufacturingahmedabad(12).jpg"
                     alt="Team at Work"
@@ -81,9 +81,9 @@ export default function AboutPreview() {
                     className="rounded-lg shadow-lg object-cover"
                   />
                 </div>
-                <div className="relative w-full aspect-video">
+                <div className="relative w-full h-60 md:h-72 lg:h-80">
                   <Image
-                    src="/images/home/tshirtmanufacturingahmedabad(13).webp"
+                    src="/images/home/tshirtmanufacturingahmedabad(13).jpg"
                     alt="Finished Products"
                     fill
                     className="rounded-lg shadow-lg object-cover"
