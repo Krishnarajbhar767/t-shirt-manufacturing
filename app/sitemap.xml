@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost:3000/</loc>
+    <loc>https://www.tshirtfactory.co.in/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://localhost:3000/about</loc>
+    <loc>https://www.tshirtfactory.co.in/about</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://localhost:3000/contact</loc>
+    <loc>https://www.tshirtfactory.co.in/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
    <url>
-    <loc>http://localhost:3000/products</loc>
+    <loc>https://www.tshirtfactory.co.in/products</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
