@@ -7,17 +7,17 @@
   </url>
   <url>
     <loc>https://www.tshirtfactory.co.in/about</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.tshirtfactory.co.in/contact</loc>
-    <changefreq>monthly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
    <url>
     <loc>https://www.tshirtfactory.co.in/products</loc>
-    <changefreq>monthly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
 </urlset>
